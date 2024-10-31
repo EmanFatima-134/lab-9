@@ -2,7 +2,7 @@
 
 Width: 500px;
 Height: 400px;
-background-color: aqua ;
+background-color: rgb(95, 125, 234) ;
 Border-width: 3px;
 border-color: lightcoral;
 Border-radius: 20%;
@@ -15,13 +15,96 @@ justify-content: center;
 text-align: center;
 
 }
+.banner{
+    transition: 0.3s ease-in-out;
+}
+.banner:hover{
+    transform: scale(1.2);
+}
 
 .normal-para
 {
     color: green;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 #fav-para
 {
     color: purple;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+body
+ {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    color: #100000; 
+    margin: 20px;
+    line-height: 1.6;
+}
+
+p:first-of-type,
+p:nth-of-type(2),
+p:nth-of-type(3) 
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #013c5a;
+    margin-bottom: 5px;
+}
+
+a
+ {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img 
+{
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #004466;
+    border-radius: 5px;
+}
+
+ol, ul 
+{
+    margin-left: 20px;
+}
+
+section 
+{
+    border: 1px solid #7c5e5e;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e98ba9;
+    border-radius: 5px;
+}
+
+.one
+{
+    border: 1px solid #7c5e5e;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #87d1eb;
+    border-radius: 5px;
+}
+.two
+{
+    border: 1px solid #7c5e5e;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #3bbcec;
+    border-radius: 5px;
+}
+
+
+ol li, ul li 
+{
+    margin-bottom: 5px;
+    color: #333;
 }
