@@ -15,3 +15,13 @@ justify-content: center;
 text-align: center;
 
 }
+
+.normal-para
+{
+    color: green;
+}
+
+#fav-para
+{
+    color: purple;
+}
