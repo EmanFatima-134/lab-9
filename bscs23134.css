@@ -1,0 +1,17 @@
+.first {
+
+Width: 500px;
+Height: 400px;
+background-color: aqua ;
+Border-width: 3px;
+border-color: lightcoral;
+Border-radius: 20%;
+Margin: 10px;
+Padding: 5px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
